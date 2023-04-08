@@ -156,7 +156,10 @@ button:hover{
         flex-direction: column;
         width: 100%;
     }
-    .container1,.container2{
+    .container2{
+        width: 100%;
+    } 
+    .container1{
         width: 100%;
     } 
 }
