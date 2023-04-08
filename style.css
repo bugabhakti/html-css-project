@@ -154,7 +154,7 @@ button:hover{
     .container{
         margin-top: 0;
         flex-direction: column;
-        max-width: 375px;
+        width: 375px;
     }
     .container1,.container2{
         width: 100%;
