@@ -150,7 +150,7 @@ button{
 button:hover{
     background-image: linear-gradient(var(--light_slate_blue),var(--light_royal_blue));
 }
-@media only screen and (max-width: 375px) {
+@media screen and (max-width: 375px) {
     .container{
         margin-top: 0;
         flex-direction: column;
