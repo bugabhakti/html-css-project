@@ -27,11 +27,11 @@ body{
 .container{
     border-radius: 15px;
     box-shadow: 10px 10px 15px var(--pale_blue);
-    width:600px;
+    max-width:600px;
     margin: 0 auto;
     display: flex;
     min-height: 400px;
-    margin-top: 150px;
+    margin-top: 10%;
 }
 .container1{
     width: 50%;
@@ -150,13 +150,16 @@ button{
 button:hover{
     background-image: linear-gradient(var(--light_slate_blue),var(--light_royal_blue));
 }
-@media only screen and (max-width: 375px) {
+@media screen and (max-width: 375px) {
     .container{
         margin-top: 0;
         flex-direction: column;
         width: 100%;
     }
-    .container1,.container2{
+    .container2{
+        width: 100%;
+    } 
+    .container1{
         width: 100%;
     } 
 }
