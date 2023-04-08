@@ -156,12 +156,7 @@ button:hover{
         flex-direction: column;
         width: 100%;
     }
-    .container2{
-        width: 100%;
-    } 
-    .container1{
-        width: 100%;
-    } 
+    
 }
 .attribution { margin-top:5px; font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
